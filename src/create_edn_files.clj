@@ -19,9 +19,5 @@
   (do
     (create-edn-file "small" 5 4)
     (create-edn-file "medium" 1500 4)
-    ;; Stackoverflow with big files:
-    #_(create-edn-file "big" 2000 4)
-    ;; Emacs beceomes unresponsive with very big files,
-    ;; even if lsp has been told to ignore them.
-    #_(create-edn-file "very-big" 10000 26)
-    ))
+    (create-edn-file "big" 2000 4)
+    (create-edn-file "very-big" 10000 26)))
