@@ -1,1 +1,1 @@
-{:paths-ignore-regex [".*edn"]}
+{:paths-ignore-regex [".*/edn-files/.*edn"]}
